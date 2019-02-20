@@ -10,6 +10,14 @@
 {% seo %}
   </head>
 	<meta name="twitter:card" content="summary" />
+	<script type="text/javascript" src="intense.min.js"></script>
+	<style type="text/css">
+		.fullscreen-image {
+		cursor: url("./plus_cursor.png"), pointer;
+		display: inline-block;
+		margin: 0px 5px 5px 0px;
+	}
+</style>
   <body>
 
     <!-- HEADER -->
@@ -38,12 +46,36 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         {{ content }}
+		<!--
 		<img src={{site.baseurl}}/images/0001.png>
 		<img src={{site.baseurl}}/images/0002.png>
 		<img src={{site.baseurl}}/images/0003.png>
+		-->
+		
+		<div class="fullscreen-image" data-image="{{site.baseurl}}/images/0001.png" data-title="(画像タイトル)"
+			data-caption="(画像説明文)">
+			<img src="{{site.baseurl}}/images/t_0001.jpg" alt="(代替文字)">
+		</div>
+		
+		<div class="fullscreen-image" data-image="{{site.baseurl}}/images/0002.png" data-title="(画像タイトル)"
+			data-caption="(画像説明文)">
+			<img src="{{site.baseurl}}/images/t_0002.jpg" alt="(代替文字)">
+		</div>
+		
+		<div class="fullscreen-image" data-image="{{site.baseurl}}/images/0003.png" data-title="(画像タイトル)"
+			data-caption="(画像説明文)">
+			<img src="{{site.baseurl}}/images/t_0003.jpg" alt="(代替文字)">
+		</div>
+		
+		<div class="fullscreen-image" data-image="{{site.baseurl}}/images/logo.jpg" data-title="(画像タイトル)"
+			data-caption="(画像説明文)">
+			<img src="{{site.baseurl}}/images/t_logo.jpg" alt="(代替文字)">
+		</div>
+		
 		<caption>hogehoge</caption>
       </section>
     </div>
+	
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
@@ -65,5 +97,10 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+	
+	<script type="text/javascript">
+		var elements = document.querySelectorAll( '.fullscreen-image' );
+		Intense( elements );
+	</script>
   </body>
 </html>

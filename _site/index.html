@@ -26,6 +26,14 @@
 
   </head>
 	<meta name="twitter:card" content="summary" />
+	<script type="text/javascript" src="intense.min.js"></script>
+	<style type="text/css">
+		.fullscreen-image {
+		cursor: url("./plus_cursor.png"), pointer;
+		display: inline-block;
+		margin: 0px 5px 5px 0px;
+	}
+</style>
   <body>
 
     <!-- HEADER -->
@@ -53,12 +61,36 @@
       <section id="main_content" class="inner">
         
 
+		<!--
 		<img src=/images/0001.png>
 		<img src=/images/0002.png>
 		<img src=/images/0003.png>
+		-->
+		
+		<div class="fullscreen-image" data-image="/images/0001.png" data-title="(画像タイトル)"
+			data-caption="(画像説明文)">
+			<img src="/images/t_0001.jpg" alt="(代替文字)">
+		</div>
+		
+		<div class="fullscreen-image" data-image="/images/0002.png" data-title="(画像タイトル)"
+			data-caption="(画像説明文)">
+			<img src="/images/t_0002.jpg" alt="(代替文字)">
+		</div>
+		
+		<div class="fullscreen-image" data-image="/images/0003.png" data-title="(画像タイトル)"
+			data-caption="(画像説明文)">
+			<img src="/images/t_0003.jpg" alt="(代替文字)">
+		</div>
+		
+		<div class="fullscreen-image" data-image="/images/logo.jpg" data-title="(画像タイトル)"
+			data-caption="(画像説明文)">
+			<img src="/images/t_logo.jpg" alt="(代替文字)">
+		</div>
+		
 		<caption>hogehoge</caption>
       </section>
     </div>
+	
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
@@ -69,5 +101,10 @@
     </div>
 
     
+	
+	<script type="text/javascript">
+		var elements = document.querySelectorAll( '.fullscreen-image' );
+		Intense( elements );
+	</script>
   </body>
 </html>
