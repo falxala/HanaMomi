@@ -26,13 +26,9 @@
 
   </head>
 	<meta name="twitter:card" content="summary" />
-	<script type="text/javascript" src="intense.min.js"></script>
-	<style type="text/css">
-		.fullscreen-image {
-		cursor: url("./plus_cursor.png"), pointer;
-		display: inline-block;
-		margin: 0px 5px 5px 0px;
-	}
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
 </style>
   <body>
 
@@ -67,26 +63,20 @@
 		<img src=/images/0003.png>
 		-->
 		
-		<div class="fullscreen-image" data-image="/images/0001.png" data-title="(画像タイトル)"
-			data-caption="(画像説明文)">
-			<img src="/images/t_0001.jpg" alt="(代替文字)">
-		</div>
+		<a href="/images/0001.png" data-lightbox="abc" data-title="">
+			<img src="/images/t_0001.jpg" alt="">
+		</a>
+		<a href="/images/0002.png" data-lightbox="abc" data-title="">
+			<img src="/images/t_0002.jpg" alt="">
+		</a>
+		<a href="/images/0003.png" data-lightbox="abc" data-title="">
+			<img src="/images/t_0003.jpg" alt="">
+		</a>
+		<a href="/images/logo.jpg" data-lightbox="abc" data-title="">
+			<img src="/images/t_logo.jpg" alt="">
+		</a>
 		
-		<div class="fullscreen-image" data-image="/images/0002.png" data-title="(画像タイトル)"
-			data-caption="(画像説明文)">
-			<img src="/images/t_0002.jpg" alt="(代替文字)">
-		</div>
-		
-		<div class="fullscreen-image" data-image="/images/0003.png" data-title="(画像タイトル)"
-			data-caption="(画像説明文)">
-			<img src="/images/t_0003.jpg" alt="(代替文字)">
-		</div>
-		
-		<div class="fullscreen-image" data-image="/images/logo.jpg" data-title="(画像タイトル)"
-			data-caption="(画像説明文)">
-			<img src="/images/t_logo.jpg" alt="(代替文字)">
-		</div>
-		
+		<br>
 		<caption>hogehoge</caption>
       </section>
     </div>
@@ -102,9 +92,5 @@
 
     
 	
-	<script type="text/javascript">
-		var elements = document.querySelectorAll( '.fullscreen-image' );
-		Intense( elements );
-	</script>
   </body>
 </html>
