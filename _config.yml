@@ -5,6 +5,8 @@ plugins:
 github : [metadata]
 repository: falxala/site_HanairoMomiji # 自分のアカウントとリポジトリ
 title: "花いろポートフォリオ"
-twitter_username: "nines_maple255"
+twitter:
+  username: "nines_maple255"
+  card: "HP"
 pixiv_userid: "6997529"
 description: "githubでHP"
