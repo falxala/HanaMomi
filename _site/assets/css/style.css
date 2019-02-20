@@ -268,7 +268,7 @@ img { max-width: 100%; border: 1px solid #eee; }
 
 .outer { width: 100%; }
 
-.inner { position: relative; max-width: 640px; padding: 50px 30px; margin: 10 auto; }
+.inner { position: relative; max-width: 80%; padding: 5% 0%; margin: 10 auto; }
 
 #project_tagline { color: #fff; font-size: 18px; font-weight: 300; background: none; text-shadow: #111 0px 0px 10px; }
 
