@@ -1,6 +1,9 @@
-theme: jekyll-theme-architect  # 自分が設定したいテーマ
+theme: jekyll-theme-slate  # 自分が設定したいテーマ
 encding: utf-8
 plugins: 
   - jekyll-github-metadata
 github : [metadata]
-repository: falxala/site_HanairoMomiji/ # 自分のアカウントとリポジトリ
+repository: falxala/site_HanairoMomiji # 自分のアカウントとリポジトリ
+title: "花いろポートフォリオ"
+twitter_username: "nines_maple255"
+pixiv_userid: "6997529"

@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+img {
+  max-width: 100%;
+  border: 1px solid #eee;
+}
+
+#project_tagline {color: #fff; font-size: 18px; font-weight: 300; background: none; text-shadow: #111 0px 0px 10px; }
+
+body { box-sizing: border-box; color: #373737; background: #212121; font-size: 16px; font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif; line-height: 0.5; -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4, h5, h6 { margin: 10px 0; font-weight: 700; color: #222222; font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif; letter-spacing: -1px; }
+
+h1 { font-size: 36px; font-weight: 700; }
+
+h2 { padding-bottom: 10px; font-size: 32px; background: url("../images/bg_hr.png") repeat-x bottom; }
+
+h3 { font-size: 24px; }
+
+
+.outer { width: 100%; }
+
+.inner { position: relative; max-width: 640px; padding: 20px 10px; margin: 0 auto; }
