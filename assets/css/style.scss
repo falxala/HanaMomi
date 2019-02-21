@@ -113,6 +113,9 @@ flexbox
 }
 
 
+/*******************************************************************************
+
+*******************************************************************************/
 @media screen and (max-width: 480px) {
 	.site-logo img{
 		height: 0px;
@@ -126,4 +129,14 @@ flexbox
 	margin-bottom: 10px;
 	}
 
+}
+
+
+#target_point {
+    background: #FFF;
+}
+#target_top {
+    position: fixed;
+    top: 0;
+    right: 10px;
 }
