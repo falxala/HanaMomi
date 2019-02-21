@@ -277,13 +277,15 @@ img { max-width: 100%; border: 1px solid #eee; box-sizing: border-box; }
 
 #project_tagline { color: #fff; font-size: 18px; font-weight: 300; background: none; text-shadow: #111 0px 0px 10px; }
 
-body { box-sizing: border-box; color: #373737; background: #212121; font-size: 16px; font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif; line-height: 0.5; -webkit-font-smoothing: antialiased; }
+body { box-sizing: border-box; color: #373737; background: #212121; font-size: 16px; font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif; line-height: 1; -webkit-font-smoothing: antialiased; }
 
-h1, h2, h3, h4, h5, h6 { margin: 10px 0; font-weight: 700; color: #222222; font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif; letter-spacing: -1px; }
+h1, h2, h3, h4, h5, h6 { margin: 10px 0; font-weight: 500; color: #222222; font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif; letter-spacing: -1px; }
 
-h1 { font-size: 36px; font-weight: 700; }
+h1 { font-size: 36px; font-weight: 500; }
 
-h2 { padding-bottom: 10px; font-size: 32px; background: url("../images/bg_hr.png") repeat-x bottom; }
+h2 { padding-bottom: 10px; font-size: 32px; background: none; }
+
+.article h2 { border: 0; }
 
 h3 { font-size: 24px; }
 
@@ -304,7 +306,7 @@ Lightbox
 /*******************************************************************************
 Header  Styles
 *******************************************************************************/
-.site-header { background: #fff; display: flex; padding: 20px; position: absolute; justify-content: space-between; width: 100%; box-sizing: border-box; z-index: 9999; }
+.site-header { background: #fff; display: flex; padding: 30px 20px 0; position: center; justify-content: space-between; width: 100%; box-sizing: border-box; z-index: 9999; }
 
 .site-header.fixed { position: fixed; top: 0; }
 
@@ -312,7 +314,7 @@ Header  Styles
 
 .headp img { height: auto; width: 100%; }
 
-.site-logo img { height: 20px; width: auto; }
+.site-logo img { height: 20px; width: auto; top: -68%; }
 
 .gnav__menu { display: flex; }
 
@@ -326,3 +328,7 @@ flexbox
 .box-list { display: flex; margin: 0; padding: 0; list-style: none; justify-content: space-between; flex-flow: row wrap; align-items: center; }
 
 .box-list li { flex: 0 0 30%; margin-bottom: 10px; }
+
+@media screen and (max-width: 480px) { .site-logo img { height: 0px; width: 0; }
+  .gnav__menu__item { margin-left: 10px; }
+  .box-list li { flex: 0 0 30%; margin-bottom: 10px; } }

@@ -5,6 +5,6 @@ image: /images/logo.jpg
 ---
 
 <section id="main_content" class="inner">
-<br><br><br>
-<h1>{{ "Welcome to My Homepage" | downcase }}</h1>
+	<h1>{{ "Welcome to My Homepage"}}</h1>
+	<h2>只今，工事中です</h2>
 </section>

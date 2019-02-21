@@ -3,10 +3,11 @@ layout: default
 title: Gallery
 ---
 
-<h1>{{ "Hello World!" | downcase }}</h1>
+<h1>{{ "Hello World!" }}</h1>
 
 <section id="main_content" class="inner">
 	<h1>Sample</h1>
+	<br>
 	<ul class="box-list">
 		<li>
 			<a href="{{site.baseurl}}/images/logo.jpg" data-lightbox="abc" data-title="">
