@@ -21,6 +21,8 @@ collections:
     output: true
   gallery:
     output: true
+  abouts:
+    output: true
     
 cloudinary:
   cloud_name: your-cloud-name
