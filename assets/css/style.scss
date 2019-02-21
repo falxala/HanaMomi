@@ -21,7 +21,7 @@ Reset Styles
 nav ul {
     list-style:none;
 }
-hr{border-top-style:solid;}
+hr{border-top-style:solid;text-align:left; margin-left:0px;}
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -123,7 +123,7 @@ Header  Styles
     background: #fff;
     display: flex;
     padding: 10px 20px 10px;
-    position: center;
+    position: absolute;
     justify-content: space-between;
     width: 100%;
 	box-sizing: border-box;
@@ -146,7 +146,7 @@ Header  Styles
 .site-logo img{
 	height: 20px;
 	width: auto;
-	top: 0%;
+	top: 22%;
 }
 
 .gnav__menu{
@@ -204,4 +204,53 @@ flexbox
     position: fixed;
     top: 0;
     right: 10px;
+}
+
+
+
+
+/*******************************************************************************
+Menu
+*******************************************************************************/
+/* Global Menu */
+ul > li{
+	display: inline-block;
+}
+ul > li > a{
+	padding: 15px 5px;
+	display: block;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+ul > li > span{
+	margin-left: 1.2em;
+}
+ul > li:hover > a{
+	background-color: #efefef;
+	color: #444;
+}
+
+/* Submenu */
+
+ul ul li ul{
+	position: absolute;
+	top: 55px;
+}
+ul ul li ul li{
+	display: block;
+}
+ul ul li ul li a{
+	background-color: #efefef;
+	color: #444;
+}
+ul ul li ul li a:hover{
+	background-color: #fdd;
+}
+
+
+.site-header ul li ul{
+	display: none;
+}
+.site-header ul li:hover ul{
+	display: block;
 }

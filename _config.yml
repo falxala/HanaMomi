@@ -1,4 +1,5 @@
 theme: jekyll-theme-slate  # 自分が設定したいテーマ
+lang: ja
 encding: utf-8
 plugins: 
   - jekyll-github-metadata
