@@ -10,36 +10,35 @@ title: Gallery
 	<br>
 	<ul class="box-list">
 		<li>
-			<a href="{{site.baseurl}}/images/logo.jpg" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_logo.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/logo.jpg" class="swipe" rel="group1" title="test_text"><img src="{{site.baseurl}}/images/t_logo.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 		<li>
-			<a href="{{site.baseurl}}/images/0003.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0003.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0003.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0003.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 		<li>
-			<a href="{{site.baseurl}}/images/0001.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0001.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0001.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0001.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>		
 		
 	</ul>
 		<ul class="box-list">
 		<li>
-			<a href="{{site.baseurl}}/images/0001.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0001.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0001.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0001.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 		<li>
-			<a href="{{site.baseurl}}/images/0001.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0001.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0001.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0001.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 		<li>
-			<a href="{{site.baseurl}}/images/0001.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0001.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0001.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0001.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 	</ul>
@@ -47,43 +46,43 @@ title: Gallery
 
 	<ul class="box-list">
 		<li>
-			<a href="{{site.baseurl}}/images/0001.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0001.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0001.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0001.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 	</ul>
 	<ul class="box-list">
 		<li>
-			<a href="{{site.baseurl}}/images/0001.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0001.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0001.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0001.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 	</ul>
 	<ul class="box-list">
 		<li>
-			<a href="{{site.baseurl}}/images/0001.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0001.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0001.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0001.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 	</ul>
 	<ul class="box-list">
 		<li>
-			<a href="{{site.baseurl}}/images/0001.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0001.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0001.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0001.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 	</ul>
 	<ul class="box-list">
 		<li>
-			<a href="{{site.baseurl}}/images/0001.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0001.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0001.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0001.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 	</ul>
 	<ul class="box-list">
 		<li>
-			<a href="{{site.baseurl}}/images/0001.png" data-lightbox="abc" data-title="">
-			<img src="{{site.baseurl}}/images/t_0001.jpg" alt=""></a>
+			<a href="{{site.baseurl}}/images/0001.png" class="swipe" rel="group1" 
+			title="test_text"><img src="{{site.baseurl}}/images/t_0001.jpg" alt="sample" /></a>
 			<h3>Title</h3>
 		</li>
 	</ul>
