@@ -92,7 +92,7 @@ title: Gallery
 <ul>
 {% for gallery in site.gallery %}
    {% unless gallery.title == "Gallery" %}
-  <li><a href="{{site.baseurl}}{{ gallery.url }}">{{ gallery.title }}</a></li>
+  <li><a href="{{site.baseurl}}">{{ gallery.title }}</a></li>
   <br><br>
   {% endunless %}
 {% endfor %}
