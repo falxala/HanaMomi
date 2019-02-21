@@ -335,7 +335,7 @@ Lightbox
 /*******************************************************************************
 Header  Styles
 *******************************************************************************/
-.site-header { background: #fff; display: flex; padding: 30px 20px 0; position: center; justify-content: space-between; width: 100%; box-sizing: border-box; z-index: 9999; }
+.site-header { background: #fff; display: flex; padding: 10px 20px 10px; position: center; justify-content: space-between; width: 100%; box-sizing: border-box; z-index: 9999; }
 
 .site-header.fixed { position: fixed; top: 0; }
 
@@ -343,7 +343,7 @@ Header  Styles
 
 .headp img { height: auto; width: 100%; }
 
-.site-logo img { height: 20px; width: auto; top: -68%; }
+.site-logo img { height: 20px; width: auto; top: 0%; }
 
 .gnav__menu { display: flex; }
 
