@@ -267,6 +267,8 @@ Small Device Styles
 /*******************************************************************************
 convenient
 *******************************************************************************/
+.mbs { margin-bottom: 4em; }
+
 .bs { margin-bottom: 2em; }
 
 .ss { margin-bottom: 0.5em; }
@@ -376,12 +378,12 @@ ul > li { display: inline-block; }
 
 ul > li > a { padding: 15px 5px; display: block; text-transform: uppercase; letter-spacing: 0.1em; }
 
-ul > li > span { margin-left: 1.2em; }
+ul > li > span { margin-left: 2.2em; }
 
 ul > li:hover > a { background-color: #efefef; color: #444; }
 
 /* Submenu */
-ul ul li ul { position: absolute; top: 55px; }
+ul ul li ul { position: absolute; top: 55px; padding: 0px 0 0 -10px; }
 
 ul ul li ul li { display: block; }
 
@@ -392,3 +394,8 @@ ul ul li ul li a:hover { background-color: #fdd; }
 .site-header ul li ul { display: none; }
 
 .site-header ul li:hover ul { display: block; }
+
+/*******************************************************************************
+cannot select
+*******************************************************************************/
+.notselect { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }

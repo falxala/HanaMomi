@@ -7,6 +7,10 @@
 /*******************************************************************************
 convenient
 *******************************************************************************/
+.mbs {
+  margin-bottom: 4em;
+}
+
 .bs {
   margin-bottom: 2em;
 }
@@ -223,7 +227,7 @@ ul > li > a{
 	letter-spacing: 0.1em;
 }
 ul > li > span{
-	margin-left: 1.2em;
+	margin-left: 2.2em;
 }
 ul > li:hover > a{
 	background-color: #efefef;
@@ -235,6 +239,7 @@ ul > li:hover > a{
 ul ul li ul{
 	position: absolute;
 	top: 55px;
+	padding: 0px 0 0 -10px;
 }
 ul ul li ul li{
 	display: block;
@@ -253,4 +258,15 @@ ul ul li ul li a:hover{
 }
 .site-header ul li:hover ul{
 	display: block;
+}
+
+
+/*******************************************************************************
+cannot select
+*******************************************************************************/
+.notselect{
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
 }
