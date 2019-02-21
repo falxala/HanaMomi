@@ -2,11 +2,35 @@ theme: jekyll-theme-slate  # 自分が設定したいテーマ
 encding: utf-8
 plugins: 
   - jekyll-github-metadata
-github : [metadata]
-repository: falxala/site_HanairoMomiji # 自分のアカウントとリポジトリ
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - another-jekyll-plugin
+
+repository: falxala/site_HanairoMomiji
 title: "花いろポートフォリオ"
 twitter:
   username: "nines_maple255"
   card: "HP"
 pixiv_userid: "6997529"
 description: "githubでHPを作ってみよう"
+collections:
+  albums:
+    output: true
+  images:
+    output: true
+  gallery:
+    output: true
+    
+cloudinary:
+  cloud_name: your-cloud-name
+  origin_url: your-site-url
+  only_prod: true
+  verbose: true
+  presets:
+    default:
+      min_width: 320
+      max_width: 1600
+      fallback_max_width: 800
+      steps: 3
+      sizes: "(min-width: 50rem) 50rem, 90vw"

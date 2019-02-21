@@ -1,0 +1,15 @@
+>bundle exec jekyll serve --watch
+
+html
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Saira+Semi+Condensed|Sawarabi+Mincho|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+
+css
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP|Saira+Semi+Condensed|Sawarabi+Mincho|ZCOOL+QingKe+HuangYou');
+</style>
+
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+font-family: 'Sawarabi Mincho', sans-serif;
+font-family: 'Saira Semi Condensed', sans-serif;
