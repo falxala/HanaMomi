@@ -37,14 +37,6 @@
 
 	<script src="{{site.baseurl}}/js/header.js" type="text/javascript"></script>
 	<script src="{{site.baseurl}}/js/autoscroll.js" type="text/javascript"></script>
-	<!--
-	<script>
-	window.addEventListener('DOMContentLoaded', function() {
-        //var targetTop = $('#target_point').offset().top;
-		//$('html,body').scrollTop(targetTop + 1);
-    });
-	</script>
-	-->
 	<script>
 	window.addEventListener('DOMContentLoaded', function() {
 	if(document.URL.match(/abouts/) || document.URL.match(/gallery/)) {
@@ -90,14 +82,14 @@
 		<p class="site-logo"><img src="{{site.baseurl}}/images/0000.png">
 		<nav class="gnav">
 			<ul class="gnav__menu">
-				<li class="gnav__menu__item"><a href="{{site.baseurl}}/">Home</a></li>
-				<li class="gnav__menu__item"><a href="{{site.baseurl}}/gallery">Gallery</a></li>
+				<li class="gnav__menu__item notselect"><a href="{{site.baseurl}}/">Home</a></li>
+				<li class="gnav__menu__item notselect"><a href="{{site.baseurl}}/gallery">Gallery</a></li>
 				<ul>
 					<li class="gnav__menu__item notselect"><a>Other<span>▼</span></a>
 						<ul>
-							<li><a href="{{site.baseurl}}/albums">Albums</a></li>
-							<li><a href="{{site.baseurl}}/docs">Document</a></li>
-							<li><a href="{{site.baseurl}}/abouts">About</a></li>
+							<li class="notselect"><a href="{{site.baseurl}}/albums">Albums</a></li>
+							<li class="notselect"><a href="{{site.baseurl}}/docs">Document</a></li>
+							<li class="notselect"><a href="{{site.baseurl}}/abouts">About</a></li>
 						</ul>
 					</li>
 				</ul>
