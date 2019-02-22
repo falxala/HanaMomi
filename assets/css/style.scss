@@ -19,6 +19,14 @@ convenient
   margin-bottom: 0.5em;
 }
 
+
+/*******************************************************************************
+IDs
+*******************************************************************************/
+
+#lp  { font-size : 150%; }
+
+
 /*******************************************************************************
 Reset Styles
 *******************************************************************************/
@@ -131,7 +139,7 @@ Header  Styles
     justify-content: space-between;
     width: 100%;
 	box-sizing: border-box;
-	z-index: 9999;
+	z-index: 1;
 }
 .site-header.fixed{
     position: fixed;
@@ -157,7 +165,10 @@ Header  Styles
 	display: flex;
 }
 .gnav__menu__item{
-	margin-left: 20px;
+	margin-left: 10px;
+	position:relative;
+	right: 3%;
+
 }
 .gnav__menu__item a{
 	color: #333;
@@ -221,7 +232,7 @@ ul > li{
 	display: inline-block;
 }
 ul > li > a{
-	padding: 15px 5px;
+	padding: 15px 8px;
 	display: block;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -238,11 +249,12 @@ ul > li:hover > a{
 
 ul ul li ul{
 	position: absolute;
-	top: 55px;
+	top: 45px;
 	padding: 0px 0 0 -10px;
 }
 ul ul li ul li{
 	display: block;
+	padding: 0px;
 }
 ul ul li ul li a{
 	background-color: #efefef;

@@ -35,7 +35,15 @@
 	})(jQuery);
 	</script>
 
-	<script src="{{site.baseurl}}/js/scroll.js" type="text/javascript"></script>
+	<script src="{{site.baseurl}}/js/header.js" type="text/javascript"></script>
+	<script src="{{site.baseurl}}/js/autoscroll.js" type="text/javascript"></script>
+	<script>
+	window.addEventListener('DOMContentLoaded', function() {
+        var targetTop = $('#target_point').offset().top;
+		$('html,body').scrollTop(targetTop + 1);
+    });
+	</script>
+
 </style>
   <body>
 
@@ -66,7 +74,9 @@
         </header>
     </div>
 	-->
+
 	<div class="headp"><img src="{{site.baseurl}}/images/header.png" width="2458" height="818" alt="headp"></div>
+	<div id="target_point">
 	<header class="site-header">
 		<p class="site-logo"><img src="{{site.baseurl}}/images/0000.png">
 		<nav class="gnav">
@@ -85,6 +95,7 @@
 			</ul>
 		</nav>
 	</header> 
+	</div>
 
     <!-- MAIN CONTENT -->
 
