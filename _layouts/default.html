@@ -47,7 +47,7 @@
 	-->
 	<script>
 	window.addEventListener('DOMContentLoaded', function() {
-	if(document.URL.match("/abouts"|"/gallery")) {
+	if(document.URL.match(/abouts/) || document.URL.match(/gallery/)) {
 		var targetTop = $('#target_point').offset().top;
 		$('html,body').scrollTop(targetTop + 1);
 		}
