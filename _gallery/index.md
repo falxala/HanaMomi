@@ -2,6 +2,7 @@
 layout: default
 title: Gallery
 ---
+
 <a id="move_target" href="#target_point">任意の位置に移動</a>
 
 <h1>{{ "Hello World!" }}</h1>

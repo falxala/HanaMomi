@@ -5,7 +5,7 @@ $(function(){
         $('#target_top span').html(targetTop);
 
         $('html,body').animate({
-            scrollTop: targetTop + 1
+            scrollTop: targetTop
         }, 500);
         return false;
     });
