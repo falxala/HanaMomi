@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--<meta name="viewport" content="width=device-width,maximum-scale=2">-->
 	<meta name="viewport" content="width=device-width">
-	<link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 	
 	{% if page.url == "404.html" %}
@@ -76,7 +75,6 @@
         </header>
     </div>
 	-->
-
 	<div class="headp"><img src="{{site.baseurl}}/images/header.png" width="2458" height="818" alt="headp"></div>
 	<div id="target_point">
 	<header class="site-header">
@@ -86,7 +84,7 @@
 				<li class="gnav__menu__item notselect"><a href="{{site.baseurl}}/">Home</a></li>
 				<li class="gnav__menu__item notselect"><a href="{{site.baseurl}}/gallery">Gallery</a></li>
 				<ul>
-					<li class="gnav__menu__item notselect"><a>Other<span>▼</span></a>
+					<li class="gnav__menu__item notselect" ontouchstart=""><a>Other<span>▼</span></a>
 						<ul>
 							<li class="notselect"><a href="{{site.baseurl}}/albums">Albums</a></li>
 							<li class="notselect"><a href="{{site.baseurl}}/docs">Document</a></li>
@@ -101,7 +99,7 @@
 
     <!-- MAIN CONTENT -->
 
-    <div id="main_content_wrap" class="outer">
+    <div id="main_content_wrap" class="outer" onclick=””>
       <section id="main_content" class="inner">
 	  <p class="mbs"></p>
         {{ content }}

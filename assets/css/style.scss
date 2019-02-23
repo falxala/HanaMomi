@@ -18,7 +18,9 @@ convenient
 .ss {
   margin-bottom: 0.5em;
 }
-
+body{
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
 
 /*******************************************************************************
 IDs
@@ -264,14 +266,13 @@ ul ul li ul li a:hover{
 	background-color: #fdd;
 }
 
-
 .site-header ul li ul{
 	display: none;
 }
+
 .site-header ul li:hover ul{
 	display: block;
 }
-
 
 /*******************************************************************************
 cannot select
