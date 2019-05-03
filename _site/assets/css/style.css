@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
@@ -315,6 +316,8 @@ img { max-width: 100%; border: 1px solid #eee; box-sizing: border-box; }
 
 #project_tagline { color: #fff; font-size: 18px; font-weight: 300; background: none; text-shadow: #111 0px 0px 10px; }
 
+#project_tagline2 { color: #000; font-size: 18px; font-weight: 300; background: none; text-shadow: #111 0px 0px 10px; }
+
 body { box-sizing: border-box; color: #373737; background: #212121; font-size: 16px; font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif; line-height: 1; -webkit-font-smoothing: antialiased; }
 
 h1, h2, h3, h4, h5, h6 { margin: 10px 0; font-weight: 500; color: #222222; font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif; letter-spacing: -1px; }
@@ -326,6 +329,15 @@ h2 { padding-bottom: 10px; font-size: 32px; background: none; }
 .article h2 { border: 0; }
 
 h3 { font-size: 24px; }
+
+h4 { font-size: 18px; }
+
+li { font-size: 18px; }
+
+/* 上に戻るボタン */
+.pagetop { color: #fff; background-color: rgba(0, 0, 0, 0.3); text-decoration: none; display: none; position: fixed; bottom: 1rem; right: 1rem; font-size: 1.5rem; width: 3.3rem; height: 3.3rem; line-height: 3.3rem; border-radius: 3.3rem; text-align: center; cursor: pointer; }
+
+.pagetop:hover { color: #fff !important; background-color: #ffa9a9; text-decoration: none; }
 
 /*******************************************************************************
 Theme Styles
